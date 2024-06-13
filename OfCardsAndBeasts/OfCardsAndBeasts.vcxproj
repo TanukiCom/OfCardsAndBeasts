@@ -136,6 +136,7 @@
     <ClInclude Include="externals\include\raylib.h" />
     <ClInclude Include="externals\include\raymath.h" />
     <ClInclude Include="externals\include\rlgl.h" />
+    <ClInclude Include="src\Player.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="externals\lib\raylib.dll" />
@@ -145,6 +146,7 @@
     <Library Include="externals\lib\raylibdll.lib" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Player.cpp" />
     <ClCompile Include="src\Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
